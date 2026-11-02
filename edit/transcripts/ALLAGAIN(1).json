@@ -1,0 +1,129 @@
+{
+  "language_code": "eng",
+  "language_probability": 0.5546751022338867,
+  "text": "See you at four fifty one point zero.",
+  "words": [
+    {
+      "text": "See",
+      "start": 1.04,
+      "end": 1.22,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0013936578761786222
+    },
+    {
+      "text": " ",
+      "start": 1.22,
+      "end": 1.3,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -7.748573807475623e-06
+    },
+    {
+      "text": "you",
+      "start": 1.3,
+      "end": 1.4,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -7.748573807475623e-06
+    },
+    {
+      "text": " ",
+      "start": 1.4,
+      "end": 1.5,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -4.9828242481453344e-05
+    },
+    {
+      "text": "at",
+      "start": 1.5,
+      "end": 1.66,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -4.9828242481453344e-05
+    },
+    {
+      "text": " ",
+      "start": 1.66,
+      "end": 1.7,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.1978737711906433
+    },
+    {
+      "text": "four",
+      "start": 1.7,
+      "end": 1.86,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.1978737711906433
+    },
+    {
+      "text": " ",
+      "start": 1.86,
+      "end": 1.92,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.45251432061195374
+    },
+    {
+      "text": "fifty",
+      "start": 1.92,
+      "end": 2.14,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.45251432061195374
+    },
+    {
+      "text": " ",
+      "start": 2.14,
+      "end": 2.2,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.2017914205789566
+    },
+    {
+      "text": "one",
+      "start": 2.2,
+      "end": 2.32,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.2017914205789566
+    },
+    {
+      "text": " ",
+      "start": 2.32,
+      "end": 2.38,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -6.318072337307967e-06
+    },
+    {
+      "text": "point",
+      "start": 2.38,
+      "end": 2.56,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -6.318072337307967e-06
+    },
+    {
+      "text": " ",
+      "start": 2.56,
+      "end": 2.64,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -6.12716976320371e-05
+    },
+    {
+      "text": "zero.",
+      "start": 2.64,
+      "end": 3.0,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.045134626317303625
+    }
+  ],
+  "transcription_id": "PGu4hPvd1z6Qm0cEO4bi",
+  "audio_duration_secs": 3.7973125
+}

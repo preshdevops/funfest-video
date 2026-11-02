@@ -1,0 +1,65 @@
+{
+  "language_code": "eng",
+  "language_probability": 0.9956262111663818,
+  "text": "Ifetedu Saturday December fifth",
+  "words": [
+    {
+      "text": "Ifetedu",
+      "start": 1.34,
+      "end": 2.0,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.9782878160476685
+    },
+    {
+      "text": " ",
+      "start": 2.0,
+      "end": 2.0,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.015010854229331017
+    },
+    {
+      "text": "Saturday",
+      "start": 2.46,
+      "end": 3.08,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.015010854229331017
+    },
+    {
+      "text": " ",
+      "start": 3.08,
+      "end": 3.28,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.2815423905849457
+    },
+    {
+      "text": "December",
+      "start": 3.28,
+      "end": 3.82,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.2815423905849457
+    },
+    {
+      "text": " ",
+      "start": 3.82,
+      "end": 3.9,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.010753422044217587
+    },
+    {
+      "text": "fifth",
+      "start": 3.9,
+      "end": 4.2,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.010753422044217587
+    }
+  ],
+  "transcription_id": "pNcLlZJPQaMhfrAlCBdy",
+  "audio_duration_secs": 5.258625
+}

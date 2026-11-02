@@ -1,0 +1,81 @@
+{
+  "language_code": "eng",
+  "language_probability": 0.5167486071586609,
+  "text": "Fun Fest one point zero",
+  "words": [
+    {
+      "text": "Fun",
+      "start": 0.22,
+      "end": 0.42,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0602881982922554
+    },
+    {
+      "text": " ",
+      "start": 0.42,
+      "end": 0.56,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.06104515865445137
+    },
+    {
+      "text": "Fest",
+      "start": 0.56,
+      "end": 0.94,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.06104515865445137
+    },
+    {
+      "text": " ",
+      "start": 0.94,
+      "end": 1.06,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0032305929344147444
+    },
+    {
+      "text": "one",
+      "start": 1.06,
+      "end": 1.24,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0032305929344147444
+    },
+    {
+      "text": " ",
+      "start": 1.24,
+      "end": 1.38,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -3.302042750874534e-05
+    },
+    {
+      "text": "point",
+      "start": 1.38,
+      "end": 1.6,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -3.302042750874534e-05
+    },
+    {
+      "text": " ",
+      "start": 1.6,
+      "end": 1.76,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00024959311122074723
+    },
+    {
+      "text": "zero",
+      "start": 1.76,
+      "end": 2.16,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00024959311122074723
+    }
+  ],
+  "transcription_id": "B1TZx42mk3NZdtTs1o7L",
+  "audio_duration_secs": 2.3333125
+}

@@ -1,0 +1,81 @@
+{
+  "language_code": "eng",
+  "language_probability": 0.5167486071586609,
+  "text": "Four fifty one point zero",
+  "words": [
+    {
+      "text": "Four",
+      "start": 1.46,
+      "end": 1.62,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.13155880570411682
+    },
+    {
+      "text": " ",
+      "start": 1.62,
+      "end": 1.72,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.33074453473091125
+    },
+    {
+      "text": "fifty",
+      "start": 1.72,
+      "end": 1.96,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.33074453473091125
+    },
+    {
+      "text": " ",
+      "start": 1.96,
+      "end": 2.06,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.018365338444709778
+    },
+    {
+      "text": "one",
+      "start": 2.06,
+      "end": 2.22,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.018365338444709778
+    },
+    {
+      "text": " ",
+      "start": 2.22,
+      "end": 2.3,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -1.2755313036905136e-05
+    },
+    {
+      "text": "point",
+      "start": 2.3,
+      "end": 2.52,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -1.2755313036905136e-05
+    },
+    {
+      "text": " ",
+      "start": 2.52,
+      "end": 2.6,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -3.504691630951129e-05
+    },
+    {
+      "text": "zero",
+      "start": 2.6,
+      "end": 3.14,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -3.504691630951129e-05
+    }
+  ],
+  "transcription_id": "7bGwTKXkKSNFIgbgpZTW",
+  "audio_duration_secs": 4.1173125
+}

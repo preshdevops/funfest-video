@@ -1,0 +1,257 @@
+{
+  "language_code": "eng",
+  "language_probability": 0.90386962890625,
+  "text": "Learn how to build a CV, set up your LinkedIn, and find opportunities worth going for",
+  "words": [
+    {
+      "text": "Learn",
+      "start": 0.36,
+      "end": 0.52,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00015496007108595222
+    },
+    {
+      "text": " ",
+      "start": 0.52,
+      "end": 0.54,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -7.676783570786938e-05
+    },
+    {
+      "text": "how",
+      "start": 0.54,
+      "end": 0.68,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -7.676783570786938e-05
+    },
+    {
+      "text": " ",
+      "start": 0.68,
+      "end": 0.72,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -3.576278118089249e-07
+    },
+    {
+      "text": "to",
+      "start": 0.72,
+      "end": 0.8,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -3.576278118089249e-07
+    },
+    {
+      "text": " ",
+      "start": 0.8,
+      "end": 0.84,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -7.629365427419543e-06
+    },
+    {
+      "text": "build",
+      "start": 0.84,
+      "end": 1.0,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -7.629365427419543e-06
+    },
+    {
+      "text": " ",
+      "start": 1.0,
+      "end": 1.04,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -8.106198947643861e-06
+    },
+    {
+      "text": "a",
+      "start": 1.04,
+      "end": 1.12,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -8.106198947643861e-06
+    },
+    {
+      "text": " ",
+      "start": 1.12,
+      "end": 1.22,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -8.21318244561553e-05
+    },
+    {
+      "text": "CV,",
+      "start": 1.22,
+      "end": 1.5,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00031488689516360563
+    },
+    {
+      "text": " ",
+      "start": 1.5,
+      "end": 1.62,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -3.671578815556131e-05
+    },
+    {
+      "text": "set",
+      "start": 1.62,
+      "end": 1.78,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -3.671578815556131e-05
+    },
+    {
+      "text": " ",
+      "start": 1.78,
+      "end": 1.84,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -2.3841830625315197e-06
+    },
+    {
+      "text": "up",
+      "start": 1.84,
+      "end": 1.94,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -2.3841830625315197e-06
+    },
+    {
+      "text": " ",
+      "start": 1.94,
+      "end": 1.98,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -7.152555099310121e-07
+    },
+    {
+      "text": "your",
+      "start": 1.98,
+      "end": 2.06,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -7.152555099310121e-07
+    },
+    {
+      "text": " ",
+      "start": 2.06,
+      "end": 2.1,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -8.22540732769994e-06
+    },
+    {
+      "text": "LinkedIn,",
+      "start": 2.1,
+      "end": 2.44,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.012543636861664709
+    },
+    {
+      "text": " ",
+      "start": 2.44,
+      "end": 2.54,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -7.152555099310121e-07
+    },
+    {
+      "text": "and",
+      "start": 2.54,
+      "end": 2.64,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -7.152555099310121e-07
+    },
+    {
+      "text": " ",
+      "start": 2.64,
+      "end": 2.74,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -2.0265558760002023e-06
+    },
+    {
+      "text": "find",
+      "start": 2.74,
+      "end": 2.92,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -2.0265558760002023e-06
+    },
+    {
+      "text": " ",
+      "start": 2.92,
+      "end": 2.98,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -5.543078441405669e-05
+    },
+    {
+      "text": "opportunities",
+      "start": 2.98,
+      "end": 3.6,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -5.543078441405669e-05
+    },
+    {
+      "text": " ",
+      "start": 3.6,
+      "end": 3.68,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -4.4225667807040736e-05
+    },
+    {
+      "text": "worth",
+      "start": 3.68,
+      "end": 3.86,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -4.4225667807040736e-05
+    },
+    {
+      "text": " ",
+      "start": 3.86,
+      "end": 3.96,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -1.0728830375228426e-06
+    },
+    {
+      "text": "going",
+      "start": 3.96,
+      "end": 4.16,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -1.0728830375228426e-06
+    },
+    {
+      "text": " ",
+      "start": 4.16,
+      "end": 4.26,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -4.768370445162873e-07
+    },
+    {
+      "text": "for",
+      "start": 4.26,
+      "end": 4.38,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -4.768370445162873e-07
+    }
+  ],
+  "transcription_id": "lvAo4BMBbJrn654qjTGj",
+  "audio_duration_secs": 5.7173125
+}

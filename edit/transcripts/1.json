@@ -1,0 +1,193 @@
+{
+  "language_code": "eng",
+  "language_probability": 0.9827988147735596,
+  "text": "School is back and lectures are back No, that girl sort came",
+  "words": [
+    {
+      "text": "School",
+      "start": 1.96,
+      "end": 2.2,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0005989664932712913
+    },
+    {
+      "text": " ",
+      "start": 2.2,
+      "end": 2.26,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -2.3841855067985307e-07
+    },
+    {
+      "text": "is",
+      "start": 2.26,
+      "end": 2.38,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -2.3841855067985307e-07
+    },
+    {
+      "text": " ",
+      "start": 2.38,
+      "end": 2.48,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": "back",
+      "start": 2.48,
+      "end": 2.76,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": " ",
+      "start": 2.76,
+      "end": 3.02,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0021852203644812107
+    },
+    {
+      "text": "and",
+      "start": 3.02,
+      "end": 3.18,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0021852203644812107
+    },
+    {
+      "text": " ",
+      "start": 3.18,
+      "end": 3.3,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -6.4490144723095e-05
+    },
+    {
+      "text": "lectures",
+      "start": 3.32,
+      "end": 3.86,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -6.4490144723095e-05
+    },
+    {
+      "text": " ",
+      "start": 3.86,
+      "end": 3.92,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": 0.0
+    },
+    {
+      "text": "are",
+      "start": 3.92,
+      "end": 4.019,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.0
+    },
+    {
+      "text": " ",
+      "start": 4.019,
+      "end": 4.12,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": "back",
+      "start": 4.12,
+      "end": 4.44,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": " ",
+      "start": 4.44,
+      "end": 4.44,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.026765495538711548
+    },
+    {
+      "text": "No,",
+      "start": 5.32,
+      "end": 5.4,
+      "type": "word",
+      "speaker_id": "speaker_1",
+      "logprob": -0.002922379101316134
+    },
+    {
+      "text": " ",
+      "start": 5.4,
+      "end": 5.46,
+      "type": "spacing",
+      "speaker_id": "speaker_1",
+      "logprob": -5.8412379075889476e-06
+    },
+    {
+      "text": "that",
+      "start": 5.46,
+      "end": 5.58,
+      "type": "word",
+      "speaker_id": "speaker_1",
+      "logprob": -5.8412379075889476e-06
+    },
+    {
+      "text": " ",
+      "start": 5.58,
+      "end": 5.64,
+      "type": "spacing",
+      "speaker_id": "speaker_1",
+      "logprob": -0.1778460144996643
+    },
+    {
+      "text": "girl",
+      "start": 5.64,
+      "end": 5.76,
+      "type": "word",
+      "speaker_id": "speaker_1",
+      "logprob": -0.1778460144996643
+    },
+    {
+      "text": " ",
+      "start": 5.76,
+      "end": 5.8,
+      "type": "spacing",
+      "speaker_id": "speaker_1",
+      "logprob": -1.6483255624771118
+    },
+    {
+      "text": "sort",
+      "start": 5.8,
+      "end": 5.96,
+      "type": "word",
+      "speaker_id": "speaker_1",
+      "logprob": -1.6483255624771118
+    },
+    {
+      "text": " ",
+      "start": 5.96,
+      "end": 6.02,
+      "type": "spacing",
+      "speaker_id": "speaker_1",
+      "logprob": -0.05958850681781769
+    },
+    {
+      "text": "came",
+      "start": 6.02,
+      "end": 6.12,
+      "type": "word",
+      "speaker_id": "speaker_1",
+      "logprob": -0.05958850681781769
+    }
+  ],
+  "transcription_id": "0WIlNuE2yc22Ju8j2rfB",
+  "audio_duration_secs": 6.1866875
+}

@@ -1,0 +1,145 @@
+{
+  "language_code": "eng",
+  "language_probability": 0.9583534002304077,
+  "text": "Well, fresher or returning student, we've got something for you",
+  "words": [
+    {
+      "text": "Well,",
+      "start": 0.8,
+      "end": 1.14,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.000591813879145775
+    },
+    {
+      "text": " ",
+      "start": 1.14,
+      "end": 1.14,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.04447247460484505
+    },
+    {
+      "text": "fresher",
+      "start": 1.78,
+      "end": 2.22,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.04447247460484505
+    },
+    {
+      "text": " ",
+      "start": 2.22,
+      "end": 2.28,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0006232702871784568
+    },
+    {
+      "text": "or returning",
+      "start": 2.28,
+      "end": 2.42,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0006232702871784568
+    },
+    {
+      "text": " ",
+      "start": 2.42,
+      "end": 2.56,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.07890010625123978
+    },
+    {
+      "text": "student,",
+      "start": 2.56,
+      "end": 3.02,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.07678882498294115
+    },
+    {
+      "text": " ",
+      "start": 3.02,
+      "end": 3.26,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -5.054346183896996e-05
+    },
+    {
+      "text": "we've",
+      "start": 3.26,
+      "end": 3.38,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -2.0622696115424333e-05
+    },
+    {
+      "text": " ",
+      "start": 3.38,
+      "end": 3.42,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": "got",
+      "start": 3.42,
+      "end": 3.58,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": " ",
+      "start": 3.58,
+      "end": 3.74,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": 0.0
+    },
+    {
+      "text": "something",
+      "start": 3.74,
+      "end": 4.14,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.0
+    },
+    {
+      "text": " ",
+      "start": 4.14,
+      "end": 4.24,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": 0.0
+    },
+    {
+      "text": "for",
+      "start": 4.24,
+      "end": 4.38,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.0
+    },
+    {
+      "text": " ",
+      "start": 4.38,
+      "end": 4.48,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -2.3841855067985307e-07
+    },
+    {
+      "text": "you",
+      "start": 4.48,
+      "end": 4.62,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -2.3841855067985307e-07
+    }
+  ],
+  "transcription_id": "4zvFf9a88ZjlrQTFPhVe",
+  "audio_duration_secs": 5.132125
+}

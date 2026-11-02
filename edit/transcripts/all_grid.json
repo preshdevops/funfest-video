@@ -1,0 +1,9 @@
+{
+  "language_code": "eng",
+  "text": "Fun Fest 1.0!",
+  "words": [
+    { "text": "Fun", "start": 0.20, "end": 0.65, "type": "word" },
+    { "text": "Fest", "start": 0.65, "end": 1.10, "type": "word" },
+    { "text": "1.0!", "start": 1.10, "end": 1.95, "type": "word" }
+  ]
+}

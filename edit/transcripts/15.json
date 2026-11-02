@@ -1,0 +1,161 @@
+{
+  "language_code": "eng",
+  "language_probability": 0.8869704008102417,
+  "text": "You. Yes, you. Invite your friends and save the date",
+  "words": [
+    {
+      "text": "You.",
+      "start": 0.4,
+      "end": 0.62,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.09792118209588807
+    },
+    {
+      "text": " ",
+      "start": 0.62,
+      "end": 0.62,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -2.9802276912960224e-06
+    },
+    {
+      "text": "Yes,",
+      "start": 1.36,
+      "end": 1.68,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -5.015271403863153e-05
+    },
+    {
+      "text": " ",
+      "start": 1.68,
+      "end": 1.92,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00010907054820563644
+    },
+    {
+      "text": "you.",
+      "start": 1.92,
+      "end": 2.1,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00950188209026237
+    },
+    {
+      "text": " ",
+      "start": 2.1,
+      "end": 2.4,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0002499506517779082
+    },
+    {
+      "text": "Invite",
+      "start": 2.42,
+      "end": 2.82,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0002499506517779082
+    },
+    {
+      "text": " ",
+      "start": 2.82,
+      "end": 2.86,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -3.576272320060525e-06
+    },
+    {
+      "text": "your",
+      "start": 2.86,
+      "end": 2.94,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -3.576272320060525e-06
+    },
+    {
+      "text": " ",
+      "start": 2.94,
+      "end": 3.02,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -5.006777428206988e-06
+    },
+    {
+      "text": "friends",
+      "start": 3.02,
+      "end": 3.36,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -5.006777428206988e-06
+    },
+    {
+      "text": " ",
+      "start": 3.36,
+      "end": 3.48,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -5.149708886165172e-05
+    },
+    {
+      "text": "and",
+      "start": 3.48,
+      "end": 3.64,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -5.149708886165172e-05
+    },
+    {
+      "text": " ",
+      "start": 3.64,
+      "end": 3.84,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -1.7165990357170813e-05
+    },
+    {
+      "text": "save",
+      "start": 3.84,
+      "end": 4.059,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -1.7165990357170813e-05
+    },
+    {
+      "text": " ",
+      "start": 4.059,
+      "end": 4.1,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -1.4305104514278355e-06
+    },
+    {
+      "text": "the",
+      "start": 4.1,
+      "end": 4.16,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -1.4305104514278355e-06
+    },
+    {
+      "text": " ",
+      "start": 4.16,
+      "end": 4.24,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.07896113395690918
+    },
+    {
+      "text": "date",
+      "start": 4.24,
+      "end": 4.64,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.07896113395690918
+    }
+  ],
+  "transcription_id": "oyinWFS01sAgEDreNovD",
+  "audio_duration_secs": 6.2293125
+}

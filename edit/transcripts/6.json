@@ -1,0 +1,257 @@
+{
+  "language_code": "eng",
+  "language_probability": 0.9897491931915283,
+  "text": "But it's not just fun. You will also pick up skills that can actually help you",
+  "words": [
+    {
+      "text": "But",
+      "start": 0.24,
+      "end": 0.52,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0003819928097072989
+    },
+    {
+      "text": " ",
+      "start": 0.52,
+      "end": 0.66,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00013219437096267939
+    },
+    {
+      "text": "it's",
+      "start": 0.66,
+      "end": 0.8,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -6.627599935882245e-05
+    },
+    {
+      "text": " ",
+      "start": 0.8,
+      "end": 0.86,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": 0.0
+    },
+    {
+      "text": "not",
+      "start": 0.86,
+      "end": 1.04,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.0
+    },
+    {
+      "text": " ",
+      "start": 1.04,
+      "end": 1.1,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": 0.0
+    },
+    {
+      "text": "just",
+      "start": 1.1,
+      "end": 1.3,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.0
+    },
+    {
+      "text": " ",
+      "start": 1.3,
+      "end": 1.48,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -3.075552376685664e-05
+    },
+    {
+      "text": "fun.",
+      "start": 1.48,
+      "end": 1.76,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0015290522660507122
+    },
+    {
+      "text": " ",
+      "start": 1.76,
+      "end": 2.12,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -2.8371408916427754e-05
+    },
+    {
+      "text": "You",
+      "start": 2.12,
+      "end": 2.18,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -2.8371408916427754e-05
+    },
+    {
+      "text": " ",
+      "start": 2.18,
+      "end": 2.22,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0003805628512054682
+    },
+    {
+      "text": "will",
+      "start": 2.22,
+      "end": 2.36,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0003805628512054682
+    },
+    {
+      "text": " ",
+      "start": 2.36,
+      "end": 2.42,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": "also",
+      "start": 2.42,
+      "end": 2.62,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": " ",
+      "start": 2.62,
+      "end": 2.7,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -4.7444173105759546e-05
+    },
+    {
+      "text": "pick",
+      "start": 2.7,
+      "end": 2.84,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -4.7444173105759546e-05
+    },
+    {
+      "text": " ",
+      "start": 2.84,
+      "end": 2.92,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -1.5258672647178173e-05
+    },
+    {
+      "text": "up",
+      "start": 2.92,
+      "end": 3.06,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -1.5258672647178173e-05
+    },
+    {
+      "text": " ",
+      "start": 3.06,
+      "end": 3.12,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -3.933898824470816e-06
+    },
+    {
+      "text": "skills",
+      "start": 3.12,
+      "end": 3.58,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -3.933898824470816e-06
+    },
+    {
+      "text": " ",
+      "start": 3.58,
+      "end": 3.68,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": 0.0
+    },
+    {
+      "text": "that",
+      "start": 3.68,
+      "end": 3.8,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.0
+    },
+    {
+      "text": " ",
+      "start": 3.8,
+      "end": 3.86,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": 0.0
+    },
+    {
+      "text": "can",
+      "start": 3.86,
+      "end": 4.22,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.0
+    },
+    {
+      "text": " ",
+      "start": 4.22,
+      "end": 4.3,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -3.576278118089249e-07
+    },
+    {
+      "text": "actually",
+      "start": 4.3,
+      "end": 4.64,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -3.576278118089249e-07
+    },
+    {
+      "text": " ",
+      "start": 4.64,
+      "end": 4.7,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -7.152555099310121e-07
+    },
+    {
+      "text": "help",
+      "start": 4.7,
+      "end": 4.94,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -7.152555099310121e-07
+    },
+    {
+      "text": " ",
+      "start": 4.94,
+      "end": 5.0,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -1.168244216387393e-05
+    },
+    {
+      "text": "you",
+      "start": 5.0,
+      "end": 5.14,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -1.168244216387393e-05
+    }
+  ],
+  "transcription_id": "N9b6o94tl5p7DAI9BN0m",
+  "audio_duration_secs": 5.3683125
+}

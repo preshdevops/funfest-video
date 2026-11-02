@@ -1,0 +1,211 @@
+{
+  "version": 1,
+  "sources": {
+    "1": "C:/Users/aremu/Downloads/funfest/1.mp4",
+    "2": "C:/Users/aremu/Downloads/funfest/2.mp4",
+    "3": "C:/Users/aremu/Downloads/funfest/3.MOV",
+    "4": "C:/Users/aremu/Downloads/funfest/4.mp4",
+    "all_grid": "C:/Users/aremu/Downloads/funfest/edit/all_grid.mp4",
+    "5": "C:/Users/aremu/Downloads/funfest/5.mp4",
+    "6": "C:/Users/aremu/Downloads/funfest/6.MOV",
+    "7": "C:/Users/aremu/Downloads/funfest/7.mp4",
+    "9": "C:/Users/aremu/Downloads/funfest/9.mp4",
+    "10": "C:/Users/aremu/Downloads/funfest/10.MOV",
+    "11": "C:/Users/aremu/Downloads/funfest/11.mp4",
+    "12": "C:/Users/aremu/Downloads/funfest/12.mp4",
+    "13": "C:/Users/aremu/Downloads/funfest/13.mp4",
+    "14": "C:/Users/aremu/Downloads/funfest/14.MOV",
+    "15": "C:/Users/aremu/Downloads/funfest/15.mp4",
+    "allagain_grid": "C:/Users/aremu/Downloads/funfest/edit/allagain_grid.mp4"
+  },
+  "ranges": [
+    {
+      "source": "1",
+      "start": 1.88,
+      "end": 4.56,
+      "beat": "HOOK_1",
+      "quote": "School is back and lectures are back",
+      "reason": "Clean opening delivery by Tolani, stopping cleanly before tail chatter."
+    },
+    {
+      "source": "2",
+      "start": 1.74,
+      "end": 3.50,
+      "beat": "HOOK_2",
+      "quote": "Assignments are back too.",
+      "reason": "Aderayo response, trimmed before outtake slate."
+    },
+    {
+      "source": "3",
+      "start": 0.38,
+      "end": 5.34,
+      "beat": "EMPATHY",
+      "quote": "And if you are just resuming, you are probably still figuring out how everything works",
+      "reason": "Banke smooth delivery addressing freshers."
+    },
+    {
+      "source": "4",
+      "start": 0.72,
+      "end": 4.74,
+      "beat": "SOLUTION_TEASE",
+      "quote": "Well, fresher or returning student, we've got something for you",
+      "reason": "Tolani transition hook."
+    },
+    {
+      "source": "all_grid",
+      "start": 0.00,
+      "end": 2.15,
+      "beat": "NAME_REVEAL",
+      "quote": "Fun Fest 1.0!",
+      "reason": "4-way synchronized split screen with all 4 speakers together in one frame."
+    },
+    {
+      "source": "5",
+      "start": 1.34,
+      "end": 7.24,
+      "beat": "VALUE_FUN",
+      "quote": "And of course, we are bringing in fun, games, new friends, and a chance to connect with other students",
+      "reason": "Aderayo energetic delivery on games and friendship."
+    },
+    {
+      "source": "6",
+      "start": 0.16,
+      "end": 5.26,
+      "beat": "VALUE_SKILLS",
+      "quote": "But it's not just fun. You will also pick up skills that can actually help you",
+      "reason": "Banke pivot to practical value."
+    },
+    {
+      "source": "7",
+      "start": 0.28,
+      "end": 4.50,
+      "beat": "VALUE_CAREER",
+      "quote": "Learn how to build a CV, set up your LinkedIn, and find opportunities worth going for",
+      "reason": "Victoria clear career advice."
+    },
+    {
+      "source": "9",
+      "start": 0.30,
+      "end": 3.54,
+      "beat": "VALUE_FAITH",
+      "quote": "And most importantly, you would experience God's love",
+      "reason": "Victoria heartbeat spiritual takeaway."
+    },
+    {
+      "source": "10",
+      "start": 0.12,
+      "end": 1.80,
+      "beat": "CALL_WHERE",
+      "quote": "So where are we meeting?",
+      "reason": "Banke call question introducing the campus tour."
+    },
+    {
+      "source": "11",
+      "start": 1.44,
+      "end": 3.98,
+      "beat": "CAMPUS_OKUKU",
+      "quote": "Okuku Wednesday, December second",
+      "reason": "Aderayo Okuku campus date."
+    },
+    {
+      "source": "12",
+      "start": 1.04,
+      "end": 3.42,
+      "beat": "CAMPUS_OSOGBO",
+      "quote": "Oshogbo Friday, December fourth",
+      "reason": "Victoria Osogbo campus date."
+    },
+    {
+      "source": "13",
+      "start": 1.26,
+      "end": 4.32,
+      "beat": "CAMPUS_IFETEDO",
+      "quote": "Ifetedu Saturday December fifth",
+      "reason": "Tolani Ifetedo campus date."
+    },
+    {
+      "source": "14",
+      "start": 0.26,
+      "end": 3.18,
+      "beat": "CAMPUSES_RECAP",
+      "quote": "Different campuses, same good time",
+      "reason": "Banke tour unity line."
+    },
+    {
+      "source": "15",
+      "start": 1.28,
+      "end": 4.76,
+      "beat": "CALL_TO_ACTION",
+      "quote": "Yes, you. Invite your friends and save the date",
+      "reason": "Tolani direct invitation call to action."
+    },
+    {
+      "source": "allagain_grid",
+      "start": 0.00,
+      "end": 2.50,
+      "beat": "FINALE",
+      "quote": "See you at Fun Fest 1.0!",
+      "reason": "4-way synchronized split screen finale with all 4 speakers together."
+    }
+  ],
+  "grade": "neutral_punch",
+  "overlays": [
+    {
+      "file": "animations/slot_1_hook/render.mov",
+      "start_in_output": 0.00,
+      "duration": 4.40
+    },
+    {
+      "file": "animations/slot_2_center_all/render.mov",
+      "start_in_output": 13.42,
+      "duration": 2.15
+    },
+    {
+      "file": "animations/slot_3_fungames/render.mov",
+      "start_in_output": 15.57,
+      "duration": 5.90
+    },
+    {
+      "file": "animations/slot_4_cv/render.mov",
+      "start_in_output": 26.57,
+      "duration": 4.22
+    },
+    {
+      "file": "animations/slot_5_godslove/render.mov",
+      "start_in_output": 30.79,
+      "duration": 3.24
+    },
+    {
+      "file": "animations/slot_6_okuku/render.mov",
+      "start_in_output": 35.71,
+      "duration": 2.54
+    },
+    {
+      "file": "animations/slot_7_osogbo/render.mov",
+      "start_in_output": 38.25,
+      "duration": 2.38
+    },
+    {
+      "file": "animations/slot_8_ifetedo/render.mov",
+      "start_in_output": 40.63,
+      "duration": 3.06
+    },
+    {
+      "file": "animations/slot_9_campuses/render.mov",
+      "start_in_output": 43.69,
+      "duration": 2.92
+    },
+    {
+      "file": "animations/slot_10_savedate/render.mov",
+      "start_in_output": 46.61,
+      "duration": 3.48
+    },
+    {
+      "file": "animations/slot_11_finale/render.mov",
+      "start_in_output": 50.09,
+      "duration": 2.50
+    }
+  ],
+  "subtitles": "edit/master.srt",
+  "total_duration_s": 52.59
+}

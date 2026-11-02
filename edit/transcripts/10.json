@@ -1,0 +1,81 @@
+{
+  "language_code": "eng",
+  "language_probability": 0.9934631586074829,
+  "text": "So where are we meeting?",
+  "words": [
+    {
+      "text": "So",
+      "start": 0.2,
+      "end": 0.42,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -9.536738616588991e-07
+    },
+    {
+      "text": " ",
+      "start": 0.42,
+      "end": 0.74,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00020346954988781363
+    },
+    {
+      "text": "where",
+      "start": 0.74,
+      "end": 0.98,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00020346954988781363
+    },
+    {
+      "text": " ",
+      "start": 0.98,
+      "end": 1.0,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": 0.0
+    },
+    {
+      "text": "are",
+      "start": 1.0,
+      "end": 1.1,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.0
+    },
+    {
+      "text": " ",
+      "start": 1.1,
+      "end": 1.14,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": "we",
+      "start": 1.14,
+      "end": 1.28,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": " ",
+      "start": 1.28,
+      "end": 1.32,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -5.960446742392378e-06
+    },
+    {
+      "text": "meeting?",
+      "start": 1.32,
+      "end": 1.68,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00024642603142410735
+    }
+  ],
+  "transcription_id": "6LD7qkqw5qxiFLyqoiFu",
+  "audio_duration_secs": 1.8316875
+}

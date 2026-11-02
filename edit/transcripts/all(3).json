@@ -1,0 +1,49 @@
+{
+  "language_code": "eng",
+  "language_probability": 0.12450417876243591,
+  "text": "Fun Fest 1.0",
+  "words": [
+    {
+      "text": "Fun",
+      "start": 1.34,
+      "end": 1.5,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.07159243524074554
+    },
+    {
+      "text": " ",
+      "start": 1.5,
+      "end": 1.62,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.10099093616008759
+    },
+    {
+      "text": "Fest",
+      "start": 1.62,
+      "end": 1.86,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.10099093616008759
+    },
+    {
+      "text": " ",
+      "start": 1.86,
+      "end": 1.94,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.14316582679748535
+    },
+    {
+      "text": "1.0",
+      "start": 2.08,
+      "end": 2.52,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -8.940587984322216e-06
+    }
+  ],
+  "transcription_id": "8fpGaLCGqBL6SwrO61LE",
+  "audio_duration_secs": 4.224
+}

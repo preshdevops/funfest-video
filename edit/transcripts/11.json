@@ -1,0 +1,65 @@
+{
+  "language_code": "eng",
+  "language_probability": 0.9749842882156372,
+  "text": "Okuku Wednesday, December second",
+  "words": [
+    {
+      "text": "Okuku",
+      "start": 1.52,
+      "end": 2.08,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.019191997498273848
+    },
+    {
+      "text": " ",
+      "start": 2.08,
+      "end": 2.22,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.18851487338542938
+    },
+    {
+      "text": "Wednesday,",
+      "start": 2.22,
+      "end": 2.74,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.17126910835504533
+    },
+    {
+      "text": " ",
+      "start": 2.74,
+      "end": 2.82,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0003231241717003286
+    },
+    {
+      "text": "December",
+      "start": 2.82,
+      "end": 3.22,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0003231241717003286
+    },
+    {
+      "text": " ",
+      "start": 3.22,
+      "end": 3.32,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.008678695186972618
+    },
+    {
+      "text": "second",
+      "start": 3.32,
+      "end": 3.86,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.008678695186972618
+    }
+  ],
+  "transcription_id": "upnYmFDOubnkRnWsFdOy",
+  "audio_duration_secs": 5.8666875
+}

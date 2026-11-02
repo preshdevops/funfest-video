@@ -1,0 +1,12 @@
+{
+  "language_code": "eng",
+  "text": "See you at Fun Fest 1.0!",
+  "words": [
+    { "text": "See", "start": 0.20, "end": 0.45, "type": "word" },
+    { "text": "you", "start": 0.45, "end": 0.70, "type": "word" },
+    { "text": "at", "start": 0.70, "end": 0.95, "type": "word" },
+    { "text": "Fun", "start": 0.95, "end": 1.35, "type": "word" },
+    { "text": "Fest", "start": 1.35, "end": 1.75, "type": "word" },
+    { "text": "1.0!", "start": 1.75, "end": 2.30, "type": "word" }
+  ]
+}
