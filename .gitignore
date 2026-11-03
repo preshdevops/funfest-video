@@ -10,3 +10,10 @@ desktop.ini
 
 # Temp ffmpeg pipes
 *.pipe
+
+# generated outputs and local assets (LFS uploads are blocked from the build sandbox)
+edit/teaser_assets/
+edit/final_v*.mp4
+edit/teaser_v*.mp4
+edit/teaser_music.wav
+edit/music_instrumental.wav

@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Rebuild subtitles: regroup the raw word timings into natural phrases and fix text
 (ordinals 2ND/4TH/5TH, OSOGBO, IFETEDO, FUN FEST 1.0! kept together). Writes master_v2.srt + master_v2.ass."""
-import re, os
+import re, os, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import timeline as TL
 HERE = os.path.dirname(os.path.abspath(__file__)); EDIT = os.path.join(HERE, "..")
 
 def tc(s):
@@ -12,7 +14,7 @@ cues = []
 for blk in open(os.path.join(EDIT, "master.srt"), encoding="utf-8").read().strip().split("\n\n"):
     lines = blk.split("\n")
     a, b = lines[1].split(" --> ")
-    cues.append((tc(a), tc(b), lines[2].split()))
+    cues.append((TL.to_video(tc(a)), TL.to_video(tc(b)), lines[2].split()))
 
 words = []  # (word, start, end) - words spread across each cue by character length
 for s, e, toks in cues:

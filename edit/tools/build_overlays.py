@@ -6,7 +6,9 @@ cards so nothing overflows. Output: edit/animations_v2/<slot>/render.mov (ARGB q
 Usage: python3 build_overlays.py [slot_name ...]   (default: all slots)
 """
 import io, os, subprocess, sys
-import cairosvg
+import cairosvg, random, math
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import timeline as TL
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageChops
 
 W, H, FPS = 1920, 1080, 30
@@ -33,6 +35,7 @@ ICONS = {
  "heart": '<path d="M24 41C9 30 6 20 11 14a9 9 0 0 1 13 2 9 9 0 0 1 13-2c5 6 2 16-13 27Z" fill="{c}"/>',
  "pin": '<path d="M24 44C14 32 10 26 10 19a14 14 0 0 1 28 0c0 7-4 13-14 25Z" fill="{c}"/><circle cx="24" cy="19" r="5" fill="#F0C766" stroke="none"/>',
  "cal": '<rect x="6" y="10" width="36" height="32" rx="4"/><path d="M6 20h36M16 5v9M32 5v9"/><path d="M15 28h4M22 28h4M29 28h4M15 35h4M22 35h4" stroke-width="3"/>',
+ "spark": '<path d="M24 4C25.5 16 32 22.5 44 24 32 25.5 25.5 32 24 44 22.5 32 16 25.5 4 24 16 22.5 22.5 16 24 4Z" fill="{c}"/><path d="M39 5v6M36 8h6" stroke-width="2.6"/>',
  "plane": '<path d="M44 5 4 21l15 6 6 15Z" fill="{c}"/><path d="M19 27 44 5" stroke="#F0C766" stroke-width="2.4"/>',
 }
 
@@ -171,7 +174,7 @@ def full_card(card):
     im.alpha_composite(card.badge)
     return im
 
-def render_frame(card, mode, t, dur):
+def render_frame(card, mode, t, dur, zoom=1.0):
     """t = seconds since item start; returns (RGBA layer, x, y) or None."""
     tin = min(0.5, dur * 0.35); tout = min(0.28, dur * 0.25)
     if t < 0 or t > dur: return None
@@ -180,6 +183,7 @@ def render_frame(card, mode, t, dur):
         elif t > dur - tout: p = 1 - ease_in_cubic((t - (dur - tout)) / tout) * 0.15; a = 1 - ease_in_cubic((t - (dur - tout)) / tout)
         else: p, a = 1.0, 1.0
         base = full_card(card)
+        p *= zoom
         sw, sh = max(1, int(base.width * p)), max(1, int(base.height * p))
         im = base.resize((sw, sh), Image.LANCZOS)
         if a < 1: im.putalpha(im.getchannel("A").point(lambda v: int(v * a)))
@@ -210,8 +214,9 @@ def render_frame(card, mode, t, dur):
 
 # slot_name, edl_start, edl_dur, items(t0,t1,title,kicker,icon,kicker_icon,mode)
 S = [
- ("slot_1_hook", 0.00, 4.40, [(0.15, 4.25, "SCHOOL IS BACK!", "FUN FEST 1.0", "cap", None, "tl")]),
- ("slot_2_center_all", 13.42, 2.15, [(13.52, 15.45, "FUN FEST 1.0", "TMGM OSUN REGION", "parasol", None, "center")]),
+ ("slot_1_hook", 0.00, 4.40, [(0.15, 4.25, "SCHOOL IS BACK!", "GET READY", "cap", None, "tl")]),
+ ("slot_1b_teaser", 9.40, 4.02, [(9.55, 13.38, "SOMETHING BIG IS COMING", "FRESHER OR RETURNING", "spark", None, "tl")]),
+ ("slot_2_center_all", 13.42, 2.15, [(13.62, 15.55, "FUN FEST 1.0", "TMGM OSUN REGION", "parasol", None, "center", "burst")]),
  ("slot_3_fungames", 15.57, 5.90, [
     (16.85, 18.50, "FUN & GAMES", "FEATURING", "gamepad", None, "tl"),
     (18.55, 19.70, "NEW FRIENDS", "FEATURING", "users", None, "tl"),
@@ -231,8 +236,30 @@ S = [
  ("slot_11_finale", 50.09, 2.50, [(50.18, 52.55, "SEE YOU AT FUN FEST 1.0!", "TMGM OSUN REGION", "parasol", None, "center")]),
 ]
 
+def draw_burst(canvas, t, cx=W // 2, cy=H // 2):
+    """Gold/white sparkle burst radiating from the card centre for ~0.9s after the reveal."""
+    if t < 0 or t > 0.9: return
+    rnd = random.Random(7)
+    e = ease_out_cubic(t / 0.9); fade = 1 - ease_in_cubic(t / 0.9)
+    d = ImageDraw.Draw(canvas)
+    cols = [GOLD_L, (255, 255, 255), (212, 135, 155), GOLD]
+    for k in range(22):
+        ang = rnd.uniform(0, 2 * math.pi); rad = rnd.uniform(240, 560) * e + 120 * e
+        r = rnd.uniform(9, 20) * (1 - 0.6 * t / 0.9)
+        x, y = cx + math.cos(ang) * rad * 1.35, cy + math.sin(ang) * rad * 0.8
+        col = cols[k % 4] + (int(255 * fade),)
+        pts = []
+        for j in range(8):
+            rr = r if j % 2 == 0 else r * 0.32
+            a2 = math.pi / 2 + j * math.pi / 4
+            pts.append((x + math.cos(a2) * rr, y + math.sin(a2) * rr))
+        d.polygon(pts, fill=col)
+
 def build(slot):
     name, start, dur, items = slot
+    vstart = TL.to_video(start)
+    mitems = [(TL.to_video(i[0]), TL.to_video(i[1])) + tuple(i[2:]) for i in items]
+    dur = max(dur, max(m[1] for m in mitems) - vstart + 0.2)
     cards = [Card(i[2], i[3], i[4], i[5]) for i in items]
     d = os.path.join(OUT, name); os.makedirs(d, exist_ok=True)
     out = os.path.join(d, "render.mov")
@@ -240,13 +267,15 @@ def build(slot):
     p = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgba", "-s", f"{W}x{H}",
                           "-r", str(FPS), "-i", "-", "-c:v", "qtrle", "-pix_fmt", "argb", out], stdin=subprocess.PIPE)
     for f in range(n):
-        tabs = start + f / FPS
+        tabs = vstart + f / FPS
         canvas = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-        for it, card in zip(items, cards):
-            r = render_frame(card, it[6], tabs - it[0], it[1] - it[0])
+        for it, card in zip(mitems, cards):
+            reveal = len(it) > 7 and it[7] == "burst"
+            r = render_frame(card, it[6], tabs - it[0], it[1] - it[0], 1.3 if reveal else 1.0)
             if r:
                 im, x, y = r
                 _paste_clipped(canvas, im, x, y)
+            if reveal: draw_burst(canvas, tabs - it[0])
         p.stdin.write(canvas.tobytes())
     p.stdin.close(); p.wait()
     print("built", out, n, "frames", flush=True)
