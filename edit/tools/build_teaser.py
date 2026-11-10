@@ -85,31 +85,41 @@ def posters(t):
     return lay
 
 # ---------------------------------------------------------------- beat 2: ARE YOU READY?
-_f = fit_font("ARE YOU", 880)
+_f2 = fit_font("ARE YOU", 880 * 2)      # drawn at 2x and downsampled with LANCZOS: no shimmer while it scales
 def _ready_layer(col2):
-    lh = int(_f.size * 1.0); im = Image.new("RGBA", (1000, lh * 2 + 80), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    lh = int(_f2.size * 0.98); im = Image.new("RGBA", (2000, lh * 2 + 160), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
     for i, (txt, col) in enumerate((("ARE YOU", (255, 255, 255)), ("READY?", col2))):
-        tw = _f.getlength(txt); bb = _f.getbbox(txt); d.text(((1000 - tw) / 2, 20 + i * lh - bb[1] * 0 + 10), txt, font=_f, fill=col + (255,))
-    return im.rotate(-3, resample=Image.BICUBIC, expand=True)
+        tw = _f2.getlength(txt); d.text(((2000 - tw) / 2, 60 + i * lh), txt, font=_f2, fill=col + (255,))
+    return im
 TXW, TXG = _ready_layer((255, 255, 255)), _ready_layer(GOLD)
 
 def ready_params(t):
+    """alpha, scale, gold?, ghosts?  Straight text, no shake: every move is an eased punch or a slow push-in."""
     if t < 3.6 or t >= 6.3: return None
-    if t < 3.8: return .30, .92, False, False, 0
-    if t < 4.0: return 1.0, lerp(1.06, 1.0, eo_cubic((t - 3.8) / .2)), False, False, 0
-    if t < 4.15: return .22, .95, False, False, 0
-    if t < 4.45: return 1.0, lerp(1.08, 1.0, eo_cubic((t - 4.15) / .3)), False, False, 0
-    if t < 6.1: return 1.0, lerp(1.0, 1.07, (t - 4.45) / 1.65), True, True, 12 * math.exp(-(t - 4.45) * 10)
-    u = (t - 6.1) / .2; return 1 - ei_cubic(u), lerp(1.07, 1.5, ei_cubic(u)), True, True, 0
+    if t < 3.8: return .30, .92, False, False
+    if t < 4.0: return 1.0, lerp(1.06, 1.0, eo_cubic((t - 3.8) / .2)), False, False
+    if t < 4.15: return .22, .95, False, False
+    if t < 4.45: return 1.0, lerp(1.08, 1.0, eo_cubic((t - 4.15) / .3)), False, False
+    if t < 6.1: return 1.0, lerp(1.0, 1.05, eo_cubic((t - 4.45) / 1.65)), True, False
+    u = (t - 6.1) / .2; return 1 - ei_cubic(u), lerp(1.05, 1.4, ei_cubic(u)), True, False
+
+_TX1 = {k: v.resize((v.width // 2, v.height // 2), Image.LANCZOS).convert("RGBa") for k, v in (("w", TXW), ("g", TXG))}   # 1x, premultiplied
+_OW, _OH = 1700, 1100
+def _scale_layer(key, s):
+    """Sub-pixel affine scale about the exact centre of a fixed-size canvas: no size rounding, no centre drift."""
+    im1 = _TX1[key]; w1, h1 = im1.size
+    out = im1.transform((_OW, _OH), Image.AFFINE, (1 / s, 0, w1 / 2 - (_OW / 2) / s, 0, 1 / s, h1 / 2 - (_OH / 2) / s), resample=Image.BICUBIC)
+    return out.convert("RGBA")
 
 def draw_ready(frame, t):
     p = ready_params(t)
     if not p: return
-    a, s, gold, ghost, sh = p
-    im = scaled(TXG if gold else TXW, s); cx, cy = 540 + math.sin(t * 97) * sh, 940 + math.cos(t * 83) * sh * 0.6
+    a, s, gold, ghost = p
+    im = _scale_layer("g" if gold else "w", s); cx, cy = 540, 940
     if ghost:
-        for off in (-30, 30): g = with_alpha(im, a * 0.32); paste(frame, g, cx + off - g.width / 2, cy - g.height / 2)
-    paste(frame, with_alpha(im, a), cx - im.width / 2, cy - im.height / 2)
+        off = int(round(30 * eo_cubic((t - 4.45) / 0.25)))
+        for o in (-off, off): paste(frame, with_alpha(im, a * 0.32), cx + o - _OW // 2, cy - _OH // 2)
+    paste(frame, with_alpha(im, a), cx - _OW // 2, cy - _OH // 2)
 
 # ---------------------------------------------------------------- beat 3: diagonal word slices (type only, no pictures)
 Y, X = np.mgrid[0:H, 0:W]; X = X.astype(np.float32); Y = Y.astype(np.float32)
